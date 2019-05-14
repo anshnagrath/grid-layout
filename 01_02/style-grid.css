@@ -1,0 +1,32 @@
+/* .site{
+    display:grid;
+    grid-template-columns: repeat(4,1fr 50px);
+    /* grid-template-columns: 75% 25%;  */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* grid-template-columns: 2fr repeat(2,1fr); */
+    /* grid-template-rows: auto 
+} */
+.site{
+    display: grid;
+    grid-template-columns: 2fr repeat(2,1fr);
+    grid-template-rows: auto 1fr 3fr;
+}
+.masthead{
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.page-title{
+
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+}
+.main-content{
+    grid-coloumn:1/2;
+    grid-row:2/4;
+}
+.footer-content{
+    grid-column: 1/4;
+    grid-row: 4
+}
